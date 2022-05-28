@@ -1,0 +1,124 @@
+.article-seguros{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.article-seguros > h2{
+    width: 85%;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.seguros{
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    padding-top: 20px;
+}
+.seguros-prata{
+   background-color: var(--cor-c12);
+   display: grid;
+   grid-template-columns: 1fr auto;
+   padding: 32px 32px 32px 60px;
+   align-self: center;
+}
+.seguros-prata h3{
+    color: var(--cor-c6);
+    font: 600 2rem/1.25 "Poppins", sans-serif;
+    padding-bottom: 30px;
+}
+.seguros-prata a{
+    color: var(--cor-white);
+    background-color: var(--cor-c10);
+    padding: 17px 30px;
+    border-radius: 4px;
+    font-weight: bolder;
+    margin-top: 20px;
+}
+.seguros-prata a:hover{
+    background-color: var(--cor-c9)
+}
+.seguros li::before{
+    content: "✓ ";
+    color: var(--cor-p1);
+    display: inline-block;
+    position: absolute;
+    left: -20px;
+}
+.seguros li{
+ font-size: 19px;
+ line-height: 3rem;
+ position: relative;
+}
+.valor-seguros> .valor {
+    color: var(--cor-white);
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    padding: 0px;
+    padding-bottom: 3px;
+}
+.valor-seguros> span {
+    color: var(--cor-c6);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 200;
+    padding: 0px;
+    text-align: right;
+}
+.seguros-ouro{
+    background-color: var(--cor-c12);
+    display: grid;
+    grid-template-columns: 1fr auto;
+    padding: 32px 32px 32px 60px;
+ }
+ .seguros-ouro h3{
+    color: var(--cor-p2);
+    font: 600 2rem/1.25 "Poppins", sans-serif;
+    padding-bottom: 30px;
+}
+.seguros-ouro a{
+    color: var(--cor-white);
+    background-color: var(--cor-p3);
+    padding: 17px 30px;
+    border-radius: 4px;
+    font-weight: bolder;
+    margin-top: 20px;
+}
+.seguros-ouro a:hover{
+    background-color: var(--cor-p1)
+}
+@media (max-width:950px){
+    .seguros-ouro a{
+        font-size: 15px;
+        padding: 10px 10px;
+    }
+    .seguros-prata a{
+        font-size: 15px;
+        padding: 10px 10px;
+    }
+}
+@media (max-width:800px){
+    .seguros{
+        grid-template-columns: 1fr;
+    }
+    .article-seguros{
+        padding-top: 30px;
+    }
+    .article-seguros > h2{
+        width: 79%;
+        padding-bottom: 30px;
+        font-size: 2.5rem;
+    }
+}
+@media (max-width:600px){
+    .seguros-ouro {
+     grid-template-columns: 1fr;
+    }
+    .valor{
+        margin-top: 30px;
+    }
+    .seguros-prata {
+        grid-template-columns: 1fr;
+    }
+}

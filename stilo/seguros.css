@@ -1,0 +1,103 @@
+.article-vantagens , .article-perguntas{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.titulos-seguros{
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 30px;
+}
+.titulos-seguros > p{
+    padding-bottom: 20px;
+}
+.article-vantagens{
+    background-color: var(--cor-c12);
+}
+.container-vantagens{
+    width: 85%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 20px 70px;
+}
+.container-vantagens li > img{
+    width: 30px;
+    height: 30px;
+    margin-left: 0px;
+    padding-bottom: 15px;
+}
+.container-vantagens li > h3{
+    font-family: 'roboto-light';
+    font-weight:lighter;
+    font-size: 1.5rem;
+    padding-bottom: 15px;
+}
+.container-vantagens li > p{
+    color: var(--cor-c5);
+    font-weight: 100;
+    font-family: 'roboto-light';
+}
+.container-perguntas{
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container-perguntas > li{
+    padding: 0px 50px 30px 50px;
+    position: relative;
+}
+.container-perguntas > li:nth-child(odd){
+    background-color: var(--cor-c1);
+}
+.container-perguntas li > a{
+    display: inline-block;
+    font-family: 'poppins-bold';
+    font-weight: bolder;
+    padding-bottom: 15px;
+    position: relative;
+}
+.container-perguntas li > p{
+    width: 65%;
+    display: none;
+}
+.container-perguntas li::after{
+    content: "ˆ";
+    display: inline-block;
+    font-size: 50px;
+    position: absolute;
+    left: 95%;
+    top: 30%;
+    transition: 0.2s;
+}
+.container-perguntas li:hover::after{
+    content: "ˇ";
+    transition: 0.2s;
+}
+.container-perguntas li:hover > p{
+ display: block;
+}
+.container-perguntas li > a::before{
+    content: " ";
+    display: block;
+    width: 15px;
+    height: 8px;
+    position: relative;
+    left: -25px;
+    top: 15px;
+    background-color: var(--cor-p1);
+}
+@media(max-width:800px){
+    .container-vantagens{
+        grid-template-columns: 1fr 1fr ;
+    }
+}
+@media(max-width:500px){
+    .container-vantagens{
+        gap: 20px 30px;
+    }
+    .titulos-seguros > h2{
+        font-size: 3rem;
+    }
+}

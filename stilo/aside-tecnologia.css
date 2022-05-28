@@ -1,0 +1,144 @@
+.container-tecnologia{
+ color: white;
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+ gap: 40px;
+}
+.tecnologia{
+    padding-top: 160px;
+    padding-bottom: 160px;
+}
+h1 > span{
+    color: var(--cor-p1);
+}
+.tecnologia > h4{
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+.tecnologia > p{
+    font-size: 1.5rem;
+    line-height: 1.4;
+    font-family: 'roboto-light';
+    font-weight: 100;
+    color: var(--cor-c5);
+    padding-bottom: 20px;
+}
+.tecnologia > a{
+ text-decoration: underline;
+ text-transform: uppercase;
+ font-weight: 600;
+ font-size: 1.5rem;
+ margin-bottom: 120px;
+}
+.tecnologia a:hover{
+    color: var(--cor-with);
+}
+.componentes{
+    display: flex;
+    gap: 40px;
+}
+.componentes1 > h3{
+    width: max-content; /*faz com que o conteudo tenha o tamanho maximo do h3 e não quebre o titulo*/
+    font-size: 1.1rem;
+    padding-bottom: 8px;
+    font-family: 'Poppins';
+    font-weight: 100;
+    position: relative;
+}
+.componentes2 > h3{
+    font-size: 1.1rem;
+    padding-bottom: 8px;
+    font-family: 'Poppins';
+    font-weight: 100;
+    position: relative;
+}
+.componentes1 h3::before{
+   content: url('../img/icones/eletrica.svg');
+   display: block;
+   position: absolute;
+   top: -40px;
+}
+.componentes2 h3::before{
+    content: url('../img/icones/rastreador.svg');
+    display: block;
+    position: absolute;
+    top: -40px;
+}
+.componentes1 > p{
+    font-size: 1rem;
+    line-height: 1.4;
+    font-family: 'roboto-light';
+    font-weight: 100;
+    color: var(--cor-c5);
+    padding-bottom: 45px;
+}
+.componentes2 > p{
+    font-size: 1rem;
+    line-height: 1.4;
+    font-family: 'roboto-light';
+    font-weight: 100;
+    color: var(--cor-c5);
+    padding-bottom: 45px;
+}
+.tecnologia-imagem img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: left;
+}
+@media(max-width:1000px){
+    .tecnologia {
+        padding-top: 30px;
+        padding-bottom: 5px;
+    }
+    .container-tecnologia{
+        grid-template-columns: 1fr;
+    }
+    .tecnologia-imagem img{
+       display: none;
+    }
+    .tecnologia-bg{
+       box-shadow: none;
+    }
+    
+}
+@media(max-width:600px){
+   
+    .componentes{
+        flex-direction: column;
+    }
+    .tecnologia >h1{
+        font-size: 3rem;
+    }
+    .componentes1 > h3{
+        font-size: 1.8rem;
+        padding-bottom: 10px;
+        font-weight: 500;
+    }
+    .componentes2 > h3{
+        font-size: 1.8rem;
+        padding-bottom: 10px;
+        font-weight: 500;
+    }
+    .tecnologia > p{
+        font-size: 1.6rem;
+        line-height: 1.5;
+    }
+    .componentes1 > p{
+        font-size: 1.6rem;
+        line-height: 1.5;
+        padding-bottom: 80px;
+        
+    }
+    .componentes2 > p{
+        font-size: 1.6rem;
+        line-height: 1.5;
+        padding-bottom: 80px;
+    }
+}
+@media(max-width:400px){
+    .container{
+        width: 100%;
+    }
+}
+

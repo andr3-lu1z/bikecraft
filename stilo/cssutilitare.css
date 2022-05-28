@@ -1,0 +1,122 @@
+.container{
+    width: 89%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+}
+.header-bg{
+    background-color: var(--cor-c11);
+}
+.introducao-bg{
+    background-color: var(--cor-c11);
+    box-shadow: inset  0px -70px white;
+}
+.tecnologia-bg{
+    background-color: var(--cor-c11);
+    box-shadow: inset  0px 90px white, inset  0px -90px white ;
+}
+.article-seguros{
+    background-color: var(--cor-c11);
+}
+.footer-bg{
+    background-color: var(--cor-c12);
+}
+.botao{
+    font-size: 1.125rem;
+    padding: 1rem 2rem;
+    border-radius: 4px;
+    font-family: 'poppins-bold';
+    background-image: linear-gradient(var(--cor-p1), var(--cor-p2));
+    text-transform: uppercase;
+    box-shadow: 0px 1px 2px rgb(0, 0, 1%);
+}
+.h1-texto-grande{
+    font-size: 4rem;
+    font-family: 'poppins-bold';
+    line-height: 1.12;
+}
+.font-h2{
+    font-size: 3.5rem;
+    font-family: 'poppins-bold';
+    line-height: 1.12;
+}
+.p-texto-medio{
+    font-size: 1.5rem;
+    font-family: 'roboto-medium';
+}
+.font-h3{
+    color: var(--cor-c12);
+    font: 600 2rem/1.25 "Poppins", sans-serif;
+}
+.font-h4{
+    font-size: 1.5rem;
+    font-family: 'roboto-light';
+    font-weight: 100;
+}
+.texto-paragrafo{
+    font-family: 'poppins-light';
+    font-size: 16px;
+    line-height: 1.3rem;
+    font-weight: 100;
+}
+.span-ponto-amarelo{
+    display: inline-block;
+    color: var(--cor-p1);
+}
+.cor-white{
+    color: var(--cor-white);
+}
+.cor-c1{
+    color: var(--cor-c1);
+}
+.cor-c2{
+    color: var(--cor-c2);
+}
+.cor-c3{
+    color: var(--cor-c3);
+}
+.cor-c4{
+    color: var(--cor-c4);
+}
+.cor-c5{
+    color: var(--cor-c5);
+}
+.cor-c6{
+    color: var(--cor-c6);
+}
+.cor-c7{
+    color: var(--cor-c7);
+}
+.cor-c8{
+    color: var(--cor-c8);
+}
+.cor-c9{
+    color: var(--cor-c9);
+}
+.cor-c10{
+    color: var(--cor-c10);
+}
+.cor-c11{
+    color: var(--cor-c11);
+}
+.cor-c12{
+    color: var(--cor-c12);
+}
+.cor-p1{
+    color: var(--cor-p1);
+}
+.cor-p2{
+    color: var(--cor-p2);
+}
+.cor-p3{
+    color: var(--cor-p3);
+}
+.cor-p4{
+    color: var(--cor-p4);
+}
+.cor-p5{
+    color: var(--cor-p5);
+}

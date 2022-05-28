@@ -1,0 +1,133 @@
+footer > .container{
+    display: grid;
+    grid-template-columns: auto 1fr 1fr;
+    gap: 140px;
+}
+picture{
+    width: 100%;
+    height: 35px;
+    padding-top: 50px;
+}
+.contatos > h3{
+    color: var(--cor-white);
+    font: 400 1.6rem/1.25 "roboto-light", sans-serif;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+.contatos > a{
+    color: var(--cor-c5);
+    font-family: 'roboto-light';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: lighter;
+    display: block;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.contatos > span{
+    color: var(--cor-c6);
+    font-family: 'roboto-light';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: lighter;
+    display: block;
+    padding-top: 12px;
+    padding-bottom: 0px; 
+}
+.contato > a{
+    color: var(--cor-c5);
+    font-family: 'roboto-light';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: lighter;
+    display: block;
+    padding-top: 0px;
+}
+.contato > a + a{
+    padding-bottom: 25px;
+}
+.contato > a:hover{
+    color: var(--cor-white);
+}
+.contato > .email::after{
+    content: "";
+    display: block;
+    position: relative;
+    width: auto;
+    height: 1px;
+    background-color: var(--cor-c10);
+    top: 20px;
+}
+.contatos > .cidade::after{
+    content: "";
+    display: block;
+    position: relative;
+    width: auto;
+    height: 1px;
+    background-color: var(--cor-c10);
+    top: 15px;
+}
+.redes{
+    display: flex;
+    gap: 30px;
+    padding-top: 30px;
+}
+.redes > a{
+    display: inline-block;
+}
+.informacoes > h3{
+    color: var(--cor-white);
+    font: 400 1.6rem/1.25 "roboto-light", sans-serif;
+    padding-top: 60px;
+    padding-bottom: -30px;
+}
+.informacoes span{
+    padding-top: 23px;
+}
+.informacoes span>a{
+    color: var(--cor-c5);
+    font-family: 'roboto-light';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: lighter;
+    display: block;
+    padding: 0px;
+}
+span > a:hover{
+    color: var(--cor-white);
+}
+footer> p{
+    color: var(--cor-c5);
+    font-family: 'roboto-light';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: lighter;
+    padding-left: 90px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+@media(max-width:900px){
+    footer > .container{
+        gap: 50px;
+    }
+}
+@media(max-width:700px){
+    footer > .container{
+        grid-template-columns: 1fr;
+    }
+    picture{
+        width: 150px;
+        height: 35px;
+        padding-top: 50px;
+    }
+    .contatos > h3{
+        padding-top: 10px;
+    }
+    .informacoes > h3{
+        padding-top: 0px;
+    }
+    footer> p{
+        padding-left: 60px;
+    }
+   
+}
