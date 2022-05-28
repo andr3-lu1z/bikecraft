@@ -10,7 +10,7 @@
     font-weight: 700;
     padding: 40px 40px 80px 80px;
     align-self: end;
-    font-family: 'merriweather-sans';
+    font-family: 'merriweather-sans'sans-serif;
     font-weight: 900;
     position: relative;
 }

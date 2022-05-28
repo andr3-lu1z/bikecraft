@@ -35,17 +35,17 @@
 }
 .h1-texto-grande{
     font-size: 4rem;
-    font-family: 'poppins-bold';
+    font-family: 'poppins-bold'sans-serif;
     line-height: 1.12;
 }
 .font-h2{
     font-size: 3.5rem;
-    font-family: 'poppins-bold';
+    font-family: 'poppins-bold'sans-serif;
     line-height: 1.12;
 }
 .p-texto-medio{
     font-size: 1.5rem;
-    font-family: 'roboto-medium';
+    font-family: 'roboto-medium'sans-serif;
 }
 .font-h3{
     color: var(--cor-c12);
@@ -53,11 +53,11 @@
 }
 .font-h4{
     font-size: 1.5rem;
-    font-family: 'roboto-light';
+    font-family: 'roboto-light'sans-serif;
     font-weight: 100;
 }
 .texto-paragrafo{
-    font-family: 'poppins-light';
+    font-family: 'poppins-light'sans-serif;
     font-size: 16px;
     line-height: 1.3rem;
     font-weight: 100;

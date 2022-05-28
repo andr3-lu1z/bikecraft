@@ -16,7 +16,7 @@ picture{
 }
 .contatos > a{
     color: var(--cor-c5);
-    font-family: 'roboto-light';
+    font-family: 'roboto-light'sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: lighter;
@@ -26,7 +26,7 @@ picture{
 }
 .contatos > span{
     color: var(--cor-c6);
-    font-family: 'roboto-light';
+    font-family: 'roboto-light'sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: lighter;
@@ -36,7 +36,7 @@ picture{
 }
 .contato > a{
     color: var(--cor-c5);
-    font-family: 'roboto-light';
+    font-family: 'roboto-light'sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: lighter;
@@ -86,7 +86,7 @@ picture{
 }
 .informacoes span>a{
     color: var(--cor-c5);
-    font-family: 'roboto-light';
+    font-family: 'roboto-light'sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: lighter;
@@ -98,7 +98,7 @@ span > a:hover{
 }
 footer> p{
     color: var(--cor-c5);
-    font-family: 'roboto-light';
+    font-family: 'roboto-light'sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: lighter;

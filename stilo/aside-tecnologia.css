@@ -18,7 +18,7 @@ h1 > span{
 .tecnologia > p{
     font-size: 1.5rem;
     line-height: 1.4;
-    font-family: 'roboto-light';
+    font-family: 'roboto-light'sans-serif;
     font-weight: 100;
     color: var(--cor-c5);
     padding-bottom: 20px;
@@ -41,14 +41,14 @@ h1 > span{
     width: max-content; /*faz com que o conteudo tenha o tamanho maximo do h3 e não quebre o titulo*/
     font-size: 1.1rem;
     padding-bottom: 8px;
-    font-family: 'Poppins';
+    font-family: 'Poppins'sans-serif;
     font-weight: 100;
     position: relative;
 }
 .componentes2 > h3{
     font-size: 1.1rem;
     padding-bottom: 8px;
-    font-family: 'Poppins';
+    font-family: 'Poppins'sans-serif;
     font-weight: 100;
     position: relative;
 }
@@ -67,7 +67,7 @@ h1 > span{
 .componentes1 > p{
     font-size: 1rem;
     line-height: 1.4;
-    font-family: 'roboto-light';
+    font-family: 'roboto-light'sans-serif;
     font-weight: 100;
     color: var(--cor-c5);
     padding-bottom: 45px;
@@ -75,7 +75,7 @@ h1 > span{
 .componentes2 > p{
     font-size: 1rem;
     line-height: 1.4;
-    font-family: 'roboto-light';
+    font-family: 'roboto-light'sans-serif;
     font-weight: 100;
     color: var(--cor-c5);
     padding-bottom: 45px;
