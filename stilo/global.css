@@ -18,7 +18,10 @@
     font-family: 'merriweather-sans';
     src: url('../merriweather-sans.bold-italic.ttf') format('truetype');
 }
-
+*{
+    padding: 0px;
+    margin: 0px;
+}
 :root{
     --cor-white:#ffffff;
     --cor-c1:#f7f7f7;

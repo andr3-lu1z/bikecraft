@@ -68,6 +68,12 @@ a>span{
         font-size: 2.5rem;
      }
 }
+@media(max-width:400px){
+    .bicicleta-lista h2 { 
+        font-size: 2.5rem;
+        padding-left: 20px;
+     }
+}
 
 
 

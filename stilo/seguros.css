@@ -59,7 +59,7 @@
     position: relative;
 }
 .container-perguntas li > p{
-    width: 65%;
+    width: 80%;
     display: none;
 }
 .container-perguntas li::after{
@@ -67,7 +67,7 @@
     display: inline-block;
     font-size: 50px;
     position: absolute;
-    left: 95%;
+    left: 93%;
     top: 30%;
     transition: 0.2s;
 }
@@ -99,5 +99,8 @@
     }
     .titulos-seguros > h2{
         font-size: 3rem;
+    }
+    .container-perguntas li > p{
+        width: 100%;
     }
 }
