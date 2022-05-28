@@ -29,7 +29,7 @@
     padding-bottom: 15px;
 }
 .container-vantagens li > h3{
-    font-family: 'roboto-light'sans-serif;
+    font-family: 'roboto-light',sans-serif;
     font-weight:lighter;
     font-size: 1.5rem;
     padding-bottom: 15px;
@@ -37,7 +37,7 @@
 .container-vantagens li > p{
     color: var(--cor-c5);
     font-weight: 100;
-    font-family: 'roboto-light'sans-serif;
+    font-family: 'roboto-light',sans-serif;
 }
 .container-perguntas{
     width: 85%;
@@ -53,7 +53,7 @@
 }
 .container-perguntas li > a{
     display: inline-block;
-    font-family: 'poppins-bold'sans-serif;
+    font-family: 'poppins-bold',sans-serif;
     font-weight: bolder;
     padding-bottom: 15px;
     position: relative;

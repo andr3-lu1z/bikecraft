@@ -24,7 +24,7 @@
     padding: 90px 90px;
 }
 .termos > h2{
-    font-family: 'poppins-bold'sans-serif;
+    font-family: 'poppins-bold',sans-serif;
     font-weight: bolder;
 }
 ol{

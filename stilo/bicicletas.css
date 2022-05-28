@@ -16,7 +16,7 @@
     justify-self: end;
     align-self: start;
     background-color: var(--cor-c12);
-    font-family: 'poppins-light'sans-serif;
+    font-family: 'poppins-light',sans-serif;
     font-size: 18px;
     font-weight: 100;
     padding: 8px 10px;
@@ -59,7 +59,7 @@
 .especialidades > span{
     padding-top: 15px;
     font-size: 18px;
-    font-family: 'poppins-light'sans-serif;
+    font-family: 'poppins-light',sans-serif;
     font-weight: 100;
     color: var(--cor-c6);
     font-style: normal;
@@ -73,7 +73,7 @@
     background-image: linear-gradient(var(--cor-p1), var(--cor-p2));
     padding: 10px 15px;
     border-radius: 4px;
-    font-family: 'poppins-bold'sans-serif;
+    font-family: 'poppins-bold',sans-serif;
     font-weight: 500;
 }
 .mais-sobre > a:hover{
