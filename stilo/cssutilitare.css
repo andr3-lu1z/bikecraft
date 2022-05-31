@@ -1,5 +1,5 @@
 .container{
-    width: 89%;
+    max-width: 1200px;
     height: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -119,4 +119,15 @@
 }
 .cor-p5{
     color: var(--cor-p5);
+}
+.container-titulo{
+    background-color: var(--cor-c11);
+}
+.titulo-paginas-internas{
+    max-width: 1200px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
 }

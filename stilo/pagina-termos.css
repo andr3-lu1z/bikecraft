@@ -5,17 +5,11 @@
  nav ul > li{
     padding: 13px 0px; 
 }
-.titulo-paginas-internas{
-    background-color: var(--cor-c11);
-    padding-top: 25px;
-    padding-bottom: 25px;
-    padding-left: 75px ;
-}
-.container-titulo  > h3{
+
+.titulo-paginas-internas > h3{
     font-size: 24px;
     font-weight: 400;
     padding-top: 30px;
-    padding-bottom: 10px;
 }
 .termos{
     width: 89%;
@@ -30,6 +24,7 @@
 ol{
     width: 50%;
     list-style: none;
+    padding-left: 10px;
 }
 li{ 
     text-align: left;
@@ -40,15 +35,18 @@ li{
 @media(max-width:800px){
     .termos{
         margin-left: 20px;
-        padding: 90px 0px;
+        padding: 40px 0px;
     }
     .titulo-paginas-internas{
-        border: 1px solid white;
         padding-top: 10px;
         padding-bottom: 10px;
         padding-left: 20px;
     }
     .container-titulo > h1{
         font-size: 3rem;
+    }
+    ol{
+        width: 100%;
+        padding-left: 10px;
     }
 }

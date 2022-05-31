@@ -2,13 +2,7 @@
     padding-top: 120px;
     padding-bottom: 120px;
 }
-.titulos-seguros{
-    width: 85%;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 30px;
-}
-.titulos-seguros > p{
+.titulo-paginas-internas > p{
     padding-bottom: 20px;
 }
 .article-vantagens{
@@ -89,6 +83,10 @@
     background-color: var(--cor-p1);
 }
 @media(max-width:800px){
+    .article-vantagens , .article-perguntas{
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
     .container-vantagens{
         grid-template-columns: 1fr 1fr ;
     }
@@ -97,7 +95,7 @@
     .container-vantagens{
         gap: 20px 30px;
     }
-    .titulos-seguros > h2{
+    .titulo-paginas-internas > h2{
         font-size: 3rem;
     }
     .container-perguntas li > p{
