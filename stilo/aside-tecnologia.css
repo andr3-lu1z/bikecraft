@@ -136,7 +136,8 @@ h1 > span{
         padding-bottom: 10px;
     }
     .tecnologia > a{
-        margin-bottom: 90px;
+        margin-bottom: 95px;
+        color: red;
     }
 }
 @media(max-width:400px){
