@@ -48,7 +48,7 @@ a{
     text-decoration: none;
     padding: 1rem 0rem;
 }
-h1,h2,h3,h4, p, ul, blockquote{
+h1,h2,h3,h4, p, ul, blockquote,dd{
     padding: 0px;
     margin: 0px;
 

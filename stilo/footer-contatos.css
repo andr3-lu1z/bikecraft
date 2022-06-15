@@ -2,6 +2,7 @@ footer > .container{
     display: grid;
     grid-template-columns: auto 1fr 1fr;
     gap: 140px;
+    padding: 0px 20px;
 }
 picture{
     width: 100%;

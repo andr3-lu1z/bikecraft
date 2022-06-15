@@ -37,22 +37,28 @@
     width: 85%;
     margin-left: auto;
     margin-right: auto;
+    cursor: pointer;
+    list-style: none;
 }
 .container-perguntas > li{
     padding: 0px 50px 30px 50px;
     position: relative;
 }
+.container-perguntas  li>dt{
+    list-style: none;
+}
 .container-perguntas > li:nth-child(odd){
     background-color: var(--cor-c1);
 }
-.container-perguntas li > a{
+.container-perguntas li > dt{
     display: inline-block;
     font-family: 'poppins-bold',sans-serif;
     font-weight: bolder;
-    padding-bottom: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     position: relative;
 }
-.container-perguntas li > p{
+.container-perguntas li > dd{
     width: 80%;
     display: none;
 }
@@ -62,17 +68,17 @@
     font-size: 50px;
     position: absolute;
     left: 93%;
-    top: 30%;
-    transition: 0.2s;
+    top: 10%;
+    transform: rotate(180deg);
+    transition: 0.3s;
 }
 .container-perguntas li:hover::after{
     content: "ˇ";
-    transition: 0.2s;
 }
-.container-perguntas li:hover > p{
+.container-perguntas li:hover > dd{
  display: block;
 }
-.container-perguntas li > a::before{
+.container-perguntas li > dt::before{
     content: " ";
     display: block;
     width: 15px;
@@ -98,7 +104,7 @@
     .titulo-paginas-internas > h2{
         font-size: 3rem;
     }
-    .container-perguntas li > p{
+    .container-perguntas li > dd{
         width: 100%;
     }
 }

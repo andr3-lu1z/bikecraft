@@ -5,11 +5,12 @@
  nav ul > li{
     padding: 13px 0px; 
 }
-
+.titulo-paginas-internas{
+    padding: 30px 20px;
+ }
 .titulo-paginas-internas > h3{
     font-size: 24px;
     font-weight: 400;
-    padding-top: 30px;
 }
 .termos{
     width: 89%;
@@ -38,15 +39,14 @@ li{
         padding: 40px 0px;
     }
     .titulo-paginas-internas{
-        padding-top: 10px;
-        padding-bottom: 10px;
-        padding-left: 20px;
-    }
+        padding: 10px 20px;
+     }
     .container-titulo > h1{
         font-size: 3rem;
     }
     ol{
         width: 100%;
         padding-left: 10px;
+        padding-right: 10px;
     }
 }

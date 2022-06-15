@@ -1,0 +1,93 @@
+.fundo-bg{
+    background-color: var(--cor-c11);
+    box-shadow: inset  0px -300px white;
+}
+.container-contato{
+    display: grid;
+    grid-template-columns: 0.6fr 1fr;
+}
+.container-contato .contato{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items:start;
+    gap: 10px;
+    padding-bottom: 20px;
+}
+.container-contato >div{
+    padding: 60px;
+}
+.container-contato div > h3{
+    padding-bottom: 30px;
+}
+.container-contato .contato > img{
+    width: 20px;
+    height: 20px;
+}
+.contato div span{
+    padding-top: 0px;
+}
+.contato div span + span{
+    padding-top: 10px;
+}
+.endereco, address{
+    font-style: normal;
+}
+.contato div > a{
+   display: block;
+   padding-top: 0px;
+}
+.contato{
+    padding-top: 25px;
+}
+.redes-sociais{
+    display: flex;
+    column-gap: 30px;
+    padding-left: 30px;
+}
+.formulario{
+    background-color: var(--cor-white);
+    padding: 60px;
+}
+form > div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+}
+label{
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-weight: 600;
+}
+input, textarea{
+    width: 100%;
+    padding: 20px;
+    background-color: var(--cor-c2);
+    border: none;
+}
+::placeholder{
+    font-size: 17px;
+}
+input:hover{
+    border: 2px solid var(--cor-p1);
+}
+button{
+    border: none;
+    margin-top: 20px;
+}
+button:hover{
+    background-color: var(--cor-p2);
+    cursor: pointer;
+}
+@media(max-width:800px){
+.container-contato{
+ grid-template-columns: 1fr;
+}
+}
+@media(max-width:600px){
+    form > div{
+        display: grid;
+        grid-template-columns: 1fr ;
+        gap: 0px;
+    }
+}

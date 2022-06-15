@@ -3,9 +3,8 @@
     height: 100%;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 20px;
-    padding-right: 20px;
     box-sizing: border-box;
+    padding: 0px 20px;
 }
 .header-bg{
     background-color: var(--cor-c11);
@@ -21,8 +20,23 @@
 .article-seguros{
     background-color: var(--cor-c11);
 }
+.article-container-bicicletas{
+    background-color: var(--cor-c11);
+}
 .footer-bg{
     background-color: var(--cor-c12);
+}
+.informacoes-bike-bg{
+    background-color: var(--cor-c12);
+}
+.header-bg-cor-12{
+    background-color: var(--cor-c12);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.seguro-pagina-interna-bicicletas-bg{
+    background-color:var(--cor-c11); 
+    box-shadow: inset  0px 120px white, inset  0px -120px rgb(0, 0, 0) ;
 }
 .botao{
     font-size: 1.125rem;
@@ -129,5 +143,5 @@
     padding-bottom: 25px;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 20px;
+   
 }

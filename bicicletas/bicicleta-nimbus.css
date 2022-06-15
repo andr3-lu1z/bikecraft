@@ -1,0 +1,165 @@
+main > .container-titulo{
+    padding-top: 35px;
+}
+.valor{
+    font-size: 30px;
+    margin-bottom: -10px;
+    font-family: 'roboto-light';
+}
+.container-informacoes-bike{
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+ align-items: flex-start;
+ column-gap: 40px;
+ padding: 20px;
+ padding-bottom: 40px;
+}
+.container-foto-bike{
+ display: flex;
+ flex-wrap: wrap;
+ gap: 20px;
+}
+.foto1{
+    max-width: 100%;
+}
+.foto2{
+    flex: 1;
+    width: 200px;
+    height: 200px;
+}
+.foto3{
+    flex: 1;
+    width: 200px;
+    height: 200px;
+}
+.container-descricao-bike  > p{
+    line-height: 2.3rem;
+    padding-bottom: 40px;
+}
+.container-descricao-bike div > a{
+    color: var(--cor-c12);
+}
+.container-descricao-bike >div{
+    display: flex;
+    gap: 20px;
+    color: white;
+    align-items: center;
+}
+.container-descricao-bike #informacoes >p{
+    font-size: 13px;
+    font-family: 'roboto-light';
+    font-weight: 100;
+    color: var(--cor-c7);
+    background-color: var(--cor-c12);
+    padding: 3px 8px;
+    border-radius: 4px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.container-descricao-bike div p+p{
+    margin-top: 8px;
+    width: 80%;
+}
+.container-descricao-bike div p>img{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+.container-descricao-bike > span{
+    font-family: 'roboto-light';
+    font-size: 0.8rem;
+    font-weight: 100;
+    font-style: normal;
+    color: var(--cor-c4);
+    padding-bottom: 10px;
+}
+.container-vantagens-bike{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 30px;
+    gap: 1px 40px;  
+}
+.container-vantagens-bike li > img{
+    display: inline-block;
+    width: 23px;
+    height: 23px;
+}
+.container-vantagens-bike li > h3{
+    font-family: 'roboto-light';
+    color: var(--cor-c2);
+    font-weight: 100;
+    padding-bottom: 8px;
+}
+.container-vantagens-bike li > p{
+    font-family: 'roboto-light';
+    color: var(--cor-c5);
+    font-size: 15px;
+    font-weight: 100;
+}
+section>ul{
+    padding: 20px;
+}
+section ul > li+li{
+    padding-top: 10px;
+}
+section ul >li{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.16);
+    padding-bottom: 2px;
+    color: var(--cor-c4);
+    font-family: 'roboto-light';
+}
+#outras-bicicletas{
+    max-width: 85%;
+}
+.seguro-pagina-interna-bicicletas-bg > .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    padding: 00px 10px;
+    margin-top: 80px;
+}
+#foto-seguro{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#textos-seguros{
+    padding-top: 180px;
+    padding-bottom: 180px;
+    align-self: center;
+}
+.container div>p{
+    padding-bottom: 30px;
+}
+@media(max-width:800px){
+ .container-informacoes-bike{
+     display: flex;
+     flex-direction: column-reverse;
+     padding-top: 0px;
+ }
+ .container-descricao-bike > section{
+    margin-bottom: 20px;
+ }
+ .seguro-pagina-interna-bicicletas-bg{
+    background-color:var(--cor-c11); 
+    box-shadow: inset  0px 0px white, inset  0px -120px rgb(0, 0, 0) ;
+}
+ .seguro-pagina-interna-bicicletas-bg > .container{
+    grid-template-columns: 1fr;
+ }
+ #textos-seguros{
+    grid-row: 1;
+    padding-top: 30px;
+    padding-bottom: 30px;
+ }
+}
+@media(max-width:600px){
+    #textos-seguros > h1{
+        font-size: 54px;
+    }
+}
+
+
