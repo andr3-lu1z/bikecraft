@@ -46,7 +46,7 @@
 }
 .formulario{
     background-color: var(--cor-white);
-    padding: 60px;
+    padding-left: 20px;
 }
 form > div{
     display: grid;
