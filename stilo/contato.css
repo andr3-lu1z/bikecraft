@@ -83,11 +83,16 @@ button:hover{
 .container-contato{
  grid-template-columns: 1fr;
 }
+.container-contato >div{
+    padding-left: 20px;
+    padding-top: 20px;
+}
 }
 @media(max-width:600px){
     form > div{
         display: grid;
         grid-template-columns: 1fr ;
         gap: 0px;
+        padding: 0px;
     }
 }
